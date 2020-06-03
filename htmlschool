@@ -1,0 +1,1691 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>E-Sınav İncele - Bursa Uludağ Üniversitesi</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+
+    <script src="/bundles/jquery?v=9W7_QJdW_7uTEqGVqxmWM3JOa7gOuFYpkgKin7ZHhCU1"></script>
+
+    <script src="/bundles/jqueryval?v=UKspXbtZaG2yflMHWVDGgUK_cbuL9yUgDEB-og0yNu01"></script>
+
+    <script src="/bundles/globalize?v=CnploaDjLAXM48iex0vsp6NhcnCc4PZh9zM0SZ-GeiU1"></script>
+
+
+    <link href="/Content/font-icons?v=42fxGwpHJqyz2c5Fz_1BqDLXCxFL4DFTbjuAPY0Lemc1" rel="stylesheet"/>
+
+    <link href="/Content/bootstrap?v=aST2XwDXTB188wlQ0O0_8IWZoF6c3M-6cw__B7xmCNM1" rel="stylesheet"/>
+
+    <link href="/Content/bootstrap-site?v=-uv94TtKbP_2dTiW_-XYOEMVPxBBe2486hS5sn8RPak1" rel="stylesheet"/>
+
+
+    <script src="/bundles/bootstrap?v=CU2ylPW9rkqfphWLR1zoi--og25_w73sFMNOvdXDOuE1"></script>
+
+    <script src="/bundles/datetimepicker?v=kDmM4CbisYfUroEhMdn-aWLYrZi2iglZQbiRdfEFeB01"></script>
+
+    
+
+    
+    
+    
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-44118954-1', 'uludag.edu.tr');
+        ga('send', 'pageview');
+
+    </script>
+
+
+</head>
+<body class="skin-blue">
+
+<header class="header"> 
+    <div class="pull-left">
+         <a class="logo">
+                <img src="/images/logo_beyaz.png" />  
+                        Bursa Uludağ Üniversitesi
+    </a>
+    </div>
+    <nav class="navbar navbar-static-top" role="navigation">
+
+        <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+
+<!--ust menu-->
+
+<div class="navbar-right">
+    <ul class="nav navbar-nav">
+        <li class="dropdown messages-menu">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    <i class="fa fa-tasks"></i>
+ <span class="label label-danger">4</span>
+
+</a>
+<ul class="dropdown-menu">
+    <li class="header">
+            <span>7 G&#252;n i&#231;inde tamamlamanız gereken 4 işlem bulunmaktadır.</span> 
+    </li>
+    <li>
+        <ul class="menu">
+                <li>
+                    <a href="/Takvim/Index/">
+                        <div class="pull-left text-black ">
+                            <i class="fa fa-hand-o-right "></i>
+                        </div>
+                        <h4>
+                            ELEKTRONİK DEVRELERİ II dersi e-sınavı
+                            <small><i class="fa fa-clock-o"></i>(2 g&#252;n kaldı)</small>
+                        </h4>
+                        <p></p>
+                    </a>
+                </li>               
+                <li>
+                    <a href="/Takvim/Index/">
+                        <div class="pull-left text-black ">
+                            <i class="fa fa-hand-o-right "></i>
+                        </div>
+                        <h4>
+                            ELEKTRONİK DEVRELER LAB. II dersi e-sınavı
+                            <small><i class="fa fa-clock-o"></i>(5 g&#252;n kaldı)</small>
+                        </h4>
+                        <p></p>
+                    </a>
+                </li>               
+                <li>
+                    <a href="/Takvim/Index/">
+                        <div class="pull-left text-black ">
+                            <i class="fa fa-hand-o-right "></i>
+                        </div>
+                        <h4>
+                            MİKROİŞLEMCİLER dersi e-sınavı
+                            <small><i class="fa fa-clock-o"></i>(6 g&#252;n kaldı)</small>
+                        </h4>
+                        <p></p>
+                    </a>
+                </li>               
+                <li>
+                    <a href="/Takvim/Index/">
+                        <div class="pull-left text-black ">
+                            <i class="fa fa-hand-o-right "></i>
+                        </div>
+                        <h4>
+                            ELEKTRONİK DEVRE ELEMANLARI dersi e-sınavı
+                            <small><i class="fa fa-clock-o"></i>(7 g&#252;n kaldı)</small>
+                        </h4>
+                        <p>Ders: Elektronik Devre Elemanları
+Sınav t&#252;r&#252;: Test 
+S&#252;resi: 30 dakika
+Soru sayısı: 20
+Puan : Her soru eşit ve 5 puan
+Danışman: Dr. &#214;ğr. &#220;y. umut AYDEMİR
+
+Başarılar :)</p>
+                    </a>
+                </li>               
+        </ul>
+    </li>
+    <li class="footer">
+        <a href="/p!J1BBKiwvDH1aXCBOHlEuW0dFXS1VJkoIFVJYQF9fEA!/">Daha fazla...</a>
+    </li>
+</ul>
+
+
+        </li>
+
+
+            <li class="dropdown  messages-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="glyphicon glyphicon-ok-circle text-light-green"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="header">Eposta adresiniz doğrulanmıştır. Bildirimleriniz tanımlanmış eposta adresine gelecektir.
+                    </li>
+                    <li class="footer">
+                        <a class="btn btn-default btn-flat" href="/p!J1BBKiwvDH9BVClXVlsiXHJOUzNVIkpcZ1BcWEJAWSgqUkcJallFQyNeEw!/">Kullanıcı Ayarları</a>
+
+                    </li>
+                </ul>
+            </li>
+
+        <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="glyphicon glyphicon-user"></i>
+                <span>G&#214;RKEM TATAR<i class="caret"></i></span>
+            </a>
+            <ul class="dropdown-menu">
+
+                <li class="user-header bg-light-blue">
+
+                    <p>
+                        G&#214;RKEM TATAR
+                        <small>031311629</small>
+                        <img src="../../Images/ukeyuser.jpg" class="img-circle" alt="User Image" />
+
+                    </p>
+                </li>
+
+                <li class="user-body">
+                    <div class="col-xs-4 text-center">
+                        <a href="/p!J1BBKiwvDH1aXCBOHlEuW0dFXS1VJkoIFVJYQF9fEA!/">Ajanda</a>
+
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <a href="/p!J1BBKiwvDH1aXCBOHlEuW0dFXS1VJkoIFVxDWldcQi1g!/">Toplantı</a>
+
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <a href="/p!J1BBKiwvDH1aXCBOHlEuW0dFXS1VJkoIClxdQkRdWhQnWVBYUBY!/">Kontrol Paneli</a>
+
+                    </div>
+                </li>
+
+                <li class="user-footer">
+                    <div class="pull-left">
+                        <a class="btn btn-default btn-flat" href="/p!J1BBKiwvDH9BVClXVlsiXHJOUzNVIkpcZ1BcWEJAWSgqUkcJallFQyNeEw!/">Kullanıcı Ayarları</a>
+
+                    </div>
+                    <div class="pull-right">
+                        <a class="btn btn-default btn-flat" href="/Home/LogOut">G&#252;venli &#199;ıkış</a>
+
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<script>
+    $(document).ready(function () {
+        SessionTimeOutSayici.Init(60,2, "/Home/Ping", "/Home");
+    });
+</script>
+
+
+    </nav>
+</header>
+
+
+    <div class="wrapper row-offcanvas row-offcanvas-left transparent">
+
+        <aside class="left-side sidebar-offcanvas">
+
+            <section id="myNavbar" class="sidebar">
+
+                <div class="user-panel">
+                    <div class="pull-left image">
+                        
+                    </div>
+                    
+                </div>
+
+                
+
+
+    <ul class="sidebar-menu">
+        <li><a href="/Ogrenci/Icerik/">
+            <i class="fa fa-folder-open"></i>
+            Dersin İçeriği</a> </li>
+        <li><a href="/Ogrenci/Ogrenciler/">
+            <i class="fa fa-envelope"></i>
+            <i class="fa fa-envelope-alt"></i>
+            Öğrenciler</a></li>
+        <li><a href="/Ogrenci/Gruplar/">
+            <i class="fa fa-users"></i>
+            Gruplar</a></li>
+        <li><a href="/Ogrenci/Odevler">
+            <i class="fa fa-edit"></i>
+            Ödevler-Projeler</a></li>
+        <li><a  href="/Ogrenci/ESinavlar/">
+            <i class="fa fa-code"></i>
+            E-Sınavlar</a></li>
+        <li><a href="/Ogrenci/DersMateryalleri">
+            <i class="fa fa-book"></i>
+            Ders Materyalleri</a></li>
+        <li><a href="/Ogrenci/Forum">
+            <i class="fa fa-comments-o"></i>
+            Forum</a></li>
+        <li><a href="/Ogrenci/Toplantilar">
+            <i class="fa fa-video-camera"></i>
+            Sanal Toplantılar</a></li>
+    </ul>
+
+
+
+            </section>
+
+        </aside>
+
+
+        <aside class="right-side row-offcanvas-bottom">
+            <section class="content-header">
+                <div class="breadcrump">
+                    <a href="/KontrolPaneli/" class="home">
+                        <i class="ion ion-ios-home"></i>
+                    </a>
+                    
+
+    <a href="/p!J1BBKiwvDHBRSjZ6UUE1UEBeFCJWLUxHLl9fU0QPcS00XkYS!/">Dersler</a>
+    <a href="/p!J1BBKiwvDH1XXTdfUxQiWl1DQC5VL11HfHxURFNcVS1g!/">EEM3504-a - ELEKTROMEKANİK ENERJİ D&#214;N&#220;Ş&#220;M&#220;</a>
+    
+
+                        <a class="current">  E-Sınav İncele   </a>
+                </div>
+            </section>
+
+            <section class="content">
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12 ">
+                        <div class="mainpanel">
+
+                        
+
+
+
+
+
+<div class="box box-incele">
+    <div class="box-header">
+        <h3 class="box-title">Sınav Bilgileri</h3>
+        <div class="box-tools pull-right">
+            <button class="btn btn-incele btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
+        </div>
+    </div>
+
+    <div class="box-body display-list">
+        <div class="display-label">
+            <label for="Ad_">Adı</label>
+        </div>
+        <div class="display-field">
+            <input class="text-box single-line" id="SinavBilgileri_Adi" name="SinavBilgileri.Adi" type="text" value="EEM3504a / 1920B - Final Sınavı" />
+        </div>
+        <div class="display-label">
+            <label for="A__klama">A&#231;ıklama</label>
+        </div>
+        <div class="display-field">
+            <textarea Cols="60" Rows="5" cols="20" id="SinavBilgileri_Aciklama" name="SinavBilgileri.Aciklama" rows="2">
+soru sayısı: 20
+soruların puan değeri: eşit
+sınav s&#252;resi: 25 dakika.
+BAŞARILAR!
+&#246;ğr.g&#246;r. sevim kurtuldu</textarea>
+        </div>
+        <div class="display-label">
+            <label for="E-Posta">E-Posta</label>
+        </div>
+        <div class="display-field">
+            <input class="text-box single-line" id="SinavBilgileri_IletisimEPosta" name="SinavBilgileri.IletisimEPosta" type="text" value="kurtuldu@uludag.edu.tr" />
+        </div>
+        <div class="display-label">
+            <label for="Ba_lang___Zaman_">Başlangı&#231; Zamanı</label>
+        </div>
+        <div class="display-field">
+            <input class="datetime" data-val="true" data-val-date="BaslangicZamani alanı geçerli bir tarih olmalıdır." data-val-required="The BaslangicZamani field is required." id="SinavBilgileri_BaslangicZamani" name="SinavBilgileri.BaslangicZamani" type="text" value="03.06.2020 15:00" /> 
+
+
+
+
+        </div>
+        <div class="display-label">
+            <label for="Son_Giri__Zaman_">Son Giriş Zamanı</label>
+        </div>
+        <div class="display-field">
+            <input class="datetime" data-val="true" data-val-date="BitisZamani alanı geçerli bir tarih olmalıdır." data-val-required="The BitisZamani field is required." id="SinavBilgileri_BitisZamani" name="SinavBilgileri.BitisZamani" type="text" value="03.06.2020 15:10" /> 
+
+
+
+
+        </div>
+        <div class="display-label">
+            <label for="S_re">S&#252;re</label>
+        </div>
+        <div class="display-field">
+            <input class="text-box single-line" data-val="true" data-val-number="Sure alanı numerik değer olmalıdır." data-val-required="The Sure field is required." id="SinavBilgileri_Sure" name="SinavBilgileri.Sure" type="number" value="25" />
+        </div>
+        <div class="display-label">
+            <label for="Cevaplama_Ba_lang__">Cevaplama Başlangı&#231;</label>
+        </div>
+        <div class="display-field">
+            <input data-val="true" data-val-date="OgrenciCevaplamaBaslamaZamani alanı geçerli bir tarih olmalıdır." data-val-required="The OgrenciCevaplamaBaslamaZamani field is required." disabled="disabled" id="OgrenciCevaplamaBaslamaZamani" name="OgrenciCevaplamaBaslamaZamani" readonly="readonly" type="text" value="03.06.2020 15:00:08" />
+        </div>
+        <div class="display-label">
+            <label for="Cevaplama_Biti_">Cevaplama Bitiş</label>
+        </div>
+        <div class="display-field">
+            <input data-val="true" data-val-date="OgrenciCevaplamaBitisZamani alanı geçerli bir tarih olmalıdır." disabled="disabled" id="OgrenciCevaplamaBitisZamani" name="OgrenciCevaplamaBitisZamani" readonly="readonly" type="text" value="03.06.2020 15:25:06" />
+        </div>
+        <div class="display-label">
+            <label for="Sonu_">Sonu&#231;</label>
+        </div>
+        <div class="display-field">
+            <input disabled="disabled" id="sonuc" name="sonuc" readonly="readonly" type="text" value="7/20" />
+        </div>
+    </div>
+</div>
+
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_0__OgrenciCevabiId" name="Sorular[0].OgrenciCevabiId" type="hidden" value="5310040" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_0__ESinavSoruHavuzuId" name="Sorular[0].ESinavSoruHavuzuId" type="hidden" value="193755" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnULBSJ7eQhWGQlyAwgfdQILDx8gX3QBGCNWAgcHBQYlI1YNUR8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Şönt bağlı bir DC makineye ilişkin ölçüm sonuçları üstteki tabloda
+verilmiştir.<br /><span style="font-size: 12pt; line-height: 107%;">Mekanik kayıplar ihmal edilmektedir.</span>&nbsp;<br /><br /><span style="font-size: 12pt; line-height: 107%;">EMK değeri için DOĞRU olanı işaretleyiniz.</span> </span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_0__SeciliCevap" name="Sorular[0].SeciliCevap" type="radio" value="818029" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hiçbiri.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_0__SeciliCevap" name="Sorular[0].SeciliCevap" type="radio" value="818025" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">50 (V)</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_0__SeciliCevap" name="Sorular[0].SeciliCevap" type="radio" value="818024" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">15 (V)</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_0__SeciliCevap" name="Sorular[0].SeciliCevap" type="radio" value="818026" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">5 (V)</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_0__SeciliCevap" name="Sorular[0].SeciliCevap" type="radio" value="818028" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">10 (V)</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_1__OgrenciCevabiId" name="Sorular[1].OgrenciCevabiId" type="hidden" value="5310041" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_1__ESinavSoruHavuzuId" name="Sorular[1].ESinavSoruHavuzuId" type="hidden" value="184211" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCn5XDCJ3eAIEGVskDg8fdQYBUx95CXMIGHUGA1QGCwB0JFICVh8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Bir manyetik devrenin sargı bulunan bir kolundan zamanla değişimi </span><span style="font-size: 12pt; line-height: 107%; font-family: &quot;Cambria Math&quot;, serif;">𝜱</span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">(t<strong>)=5.sin(8t) &nbsp;, (Wb)</strong> olarak bilinen manyetik akı
+akmaktadır. Sargının sarım sayısı <strong>10</strong>
+olarak bilindiğine göre,<br /></span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">sargının uçlarında indüklenen Emk ifadesi için DOĞRU olanı
+işaretleyiniz.</span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_1__SeciliCevap" name="Sorular[1].SeciliCevap" type="radio" value="779898" />                        </label>
+                        <span class="field">
+                            <span>Hiçbiri.</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_1__SeciliCevap" name="Sorular[1].SeciliCevap" type="radio" value="779872" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">50.cos(8t) ,(V)&nbsp;</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_1__SeciliCevap" name="Sorular[1].SeciliCevap" type="radio" value="779896" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">50.cos(8t) ,(V)&nbsp;</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_1__SeciliCevap" name="Sorular[1].SeciliCevap" type="radio" value="779868" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">400.cos(8t) ,(V)&nbsp;</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_1__SeciliCevap" name="Sorular[1].SeciliCevap" type="radio" value="779865" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">50.sin(8t) ,(V)&nbsp;</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_2__OgrenciCevabiId" name="Sorular[2].OgrenciCevabiId" type="hidden" value="5310043" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_2__ESinavSoruHavuzuId" name="Sorular[2].ESinavSoruHavuzuId" type="hidden" value="189660" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnUEAnMmIAQGGQxyVAwfdQxSAB8jXHULGCQCUQRVVAF3JQRXUB8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Üstteki şekilde, manyetik alan içinde bulunan, içinden 1A lik akım akan,
+dairesel biçimli iletken bulunmaktadır.<br /><span style="font-size: 12pt; line-height: 107%;">İletkenin çevre uzunluğu 2 m olduğuna göre, etki eden kuvvet ifadesi
+için DOĞRU olanı işaretleyiniz.</span>&nbsp;</span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_2__SeciliCevap" name="Sorular[2].SeciliCevap" type="radio" value="802231" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCiRWB3V1eVIHGV13AA4fdQVRUx94AHoKGCRQUAADVwR3dgNXVx8!/"/>
+<br />
+                            <span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_2__SeciliCevap" name="Sorular[2].SeciliCevap" type="radio" value="802248" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:16.0pt;mso-bidi-font-size:12.0pt;&#xD;&#xA;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;&#xD;&#xA;mso-fareast-theme-font:minor-latin;mso-ansi-language:TR;mso-fareast-language:&#xD;&#xA;EN-US;mso-bidi-language:AR-SA">0</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_2__SeciliCevap" name="Sorular[2].SeciliCevap" type="radio" value="802235" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCicFUHIidAQFGQFxA14fdVMFUR94WiFbGCQDUQEPUA4gI1IDBx8!/"/>
+<br />
+                            <span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_2__SeciliCevap" name="Sorular[2].SeciliCevap" type="radio" value="802239" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnUFA3B6cwYHGQsnAgofdQdXAh8jWnAOGHgCUg5QUQ4mJwAAVR8!/"/>
+<br />
+                            <span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_2__SeciliCevap" name="Sorular[2].SeciliCevap" type="radio" value="802244" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCicCAHJwcwVVGV0kVVsfdQ1QVh95AXoBGCUGVg8HAlMndwcHBR8!/"/>
+<br />
+                            <span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_3__OgrenciCevabiId" name="Sorular[3].OgrenciCevabiId" type="hidden" value="5310044" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_3__ESinavSoruHavuzuId" name="Sorular[3].ESinavSoruHavuzuId" type="hidden" value="193699" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCiVSDXVwcAgBGQ93BwEfdVYAAx94C3MNGHcFUgYCU1cgJw4BAh8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Bir DC makine <strong>tam yük şartlarında</strong>
+çalışmakta olup, ölçüm sonuçları üstteki tabloda verilmiştir.&nbsp;<br /><br /><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Bu makinenin anma (nominal) güç değeri için DOĞRU olanı işaretleyiniz.</span> </span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_3__SeciliCevap" name="Sorular[3].SeciliCevap" type="radio" value="817811" />                        </label>
+                        <span class="field">
+                            <span><strong><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#xD;&#xA;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&#xD;&#xA;TR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">55 W</span></strong></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_3__SeciliCevap" name="Sorular[3].SeciliCevap" type="radio" value="817807" />                        </label>
+                        <span class="field">
+                            <span><strong><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#xD;&#xA;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&#xD;&#xA;TR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">40 W</span></strong></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_3__SeciliCevap" name="Sorular[3].SeciliCevap" type="radio" value="817808" />                        </label>
+                        <span class="field">
+                            <span><strong><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#xD;&#xA;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&#xD;&#xA;TR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">90 W</span></strong></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_3__SeciliCevap" name="Sorular[3].SeciliCevap" type="radio" value="817812" />                        </label>
+                        <span class="field">
+                            <span><strong><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#xD;&#xA;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&#xD;&#xA;TR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Hiçbiri</span></strong></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_3__SeciliCevap" name="Sorular[3].SeciliCevap" type="radio" value="817806" />                        </label>
+                        <span class="field">
+                            <span><strong><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#xD;&#xA;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&#xD;&#xA;TR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">100 W</span></strong></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_4__OgrenciCevabiId" name="Sorular[4].OgrenciCevabiId" type="hidden" value="5310046" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_4__ESinavSoruHavuzuId" name="Sorular[4].ESinavSoruHavuzuId" type="hidden" value="183904" />
+
+        
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Hangisi feromanyetik
+maddellere özgü DEĞİL dir ?</span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_4__SeciliCevap" name="Sorular[4].SeciliCevap" type="radio" value="778578" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Satürasyon.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_4__SeciliCevap" name="Sorular[4].SeciliCevap" type="radio" value="778575" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Lineerlik.</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_4__SeciliCevap" name="Sorular[4].SeciliCevap" type="radio" value="778577" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Kalıcı mıknatıslanma.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_4__SeciliCevap" name="Sorular[4].SeciliCevap" type="radio" value="778571" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Histerezis döngüsü.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_4__SeciliCevap" name="Sorular[4].SeciliCevap" type="radio" value="778528" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Domen oluşumu.</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_5__OgrenciCevabiId" name="Sorular[5].OgrenciCevabiId" type="hidden" value="5310047" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_5__ESinavSoruHavuzuId" name="Sorular[5].ESinavSoruHavuzuId" type="hidden" value="184171" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnIFVnd6c1UAGVwhVw8fdQUEVB8gCiYBGHRVBQFXBlUlIlUBDB8!/"/>
+
+
+        <h5><p class="MsoListParagraph" style="margin-top:0cm;margin-right:-14.2pt;&#xD;&#xA;margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;mso-add-space:auto;&#xD;&#xA;text-indent:-14.2pt;mso-list:l0 level1 lfo1"><span style="text-decoration: underline;"><span style="font-size: 12pt; font-family: Arial, sans-serif;">Mükemmel manyetik özellikli nüve</span></span><span style="font-size: 12pt; font-family: Arial, sans-serif;">, N sarımlı sargı ve
+hava aralığından oluşan iki farklı manyetik devre ele alınmaktadır. Nüve kesitleri
+S (m<sup>2</sup>) olarak verilmektedir.<br /><br /></span></p><p class="MsoNormal" style="margin-right:-14.2pt"><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Bu iki yapıya ilişkin, YANLIŞ
+olanını işaretleyiniz.</span></p></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_5__SeciliCevap" name="Sorular[5].SeciliCevap" type="radio" value="779694" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Her iki yapının relüktans değerleri eşittir.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_5__SeciliCevap" name="Sorular[5].SeciliCevap" type="radio" value="779698" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Her iki yapının manyetik akı değerleri eşittir.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_5__SeciliCevap" name="Sorular[5].SeciliCevap" type="radio" value="779696" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Her iki yapının manyetomotor kuvveti değerleri eşittir.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_5__SeciliCevap" name="Sorular[5].SeciliCevap" type="radio" value="779701" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hiçbiri.</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_5__SeciliCevap" name="Sorular[5].SeciliCevap" type="radio" value="779699" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Her iki yapının özindüktans katsayısı değerleri eşittir.</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_6__OgrenciCevabiId" name="Sorular[6].OgrenciCevabiId" type="hidden" value="5310048" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_6__ESinavSoruHavuzuId" name="Sorular[6].ESinavSoruHavuzuId" type="hidden" value="184274" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCiJVBCInIAYHGVskD1sfdQQHVh95DScOGHJQUVAOAg8iIgAHVx8!/"/>
+
+
+        <h5><p class="MsoListParagraph" style="margin-top:0cm;margin-right:-14.2pt;&#xD;&#xA;margin-bottom:0cm;margin-left:14.2pt;margin-bottom:.0001pt;mso-add-space:auto;&#xD;&#xA;text-indent:-14.2pt;mso-list:l0 level1 lfo1"><strong style="mso-bidi-font-weight:normal"><span style="font-size: 11pt; font-family: Arial, sans-serif;"><span style="mso-list:Ignore"><span style="font: 7pt &quot;Times New Roman&quot;;">&nbsp;</span></span></span></strong><span style="font-size: 12pt; font-family: Arial, sans-serif;">Şekilde, bir feromanyetik prizmanın ebatları, manyetik
+alan doğrultusu ve geçirgenlik sabiti belirtilmiştir.<br /></span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Üniform manyetik alan varsayımı altında, prizmanın relüktansı nasıl
+hesaplanmalıdır?&nbsp;</span></p></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_6__SeciliCevap" name="Sorular[6].SeciliCevap" type="radio" value="780183" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">z / (μ.x.y)&nbsp;</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_6__SeciliCevap" name="Sorular[6].SeciliCevap" type="radio" value="780187" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">y / (μ.x.z)&nbsp;</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_6__SeciliCevap" name="Sorular[6].SeciliCevap" type="radio" value="780189" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">xy / (μ.z)</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_6__SeciliCevap" name="Sorular[6].SeciliCevap" type="radio" value="780198" />                        </label>
+                        <span class="field">
+                            <span>Hiçbiri.</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_6__SeciliCevap" name="Sorular[6].SeciliCevap" type="radio" value="780186" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">x / (μ.z.y)&nbsp;</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_7__OgrenciCevabiId" name="Sorular[7].OgrenciCevabiId" type="hidden" value="5310049" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_7__ESinavSoruHavuzuId" name="Sorular[7].ESinavSoruHavuzuId" type="hidden" value="184282" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCiUKBXImc1JQGQskAF0fdQdXAh94WiVcGHhSBg5VVgcmcAUNAR8!/"/>
+
+
+        <h5><p class="MsoListParagraph" style="margin-left:14.2pt;text-indent:-14.2pt;&#xD;&#xA;mso-list:l0 level1 lfo1"><span style="font-size: 12pt; font-family: Arial, sans-serif;">Üç sargıdan oluşan,
+akım yönleri ve sarım sayıları şekil üzerinde belirtilmiş bir manyetik devre verilmektedir.<br /><br /></span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Aşağıdaki seçeneklerden hangisi, bu yapıya ilişkin bir eşdeğer devre
+modeli olabilir?</span></p></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_7__SeciliCevap" name="Sorular[7].SeciliCevap" type="radio" value="780257" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCn8DUXZxd1BVGQByVwEfdVBQBx8gX3pZGHkHBQIBBAN9I1ZXVx8!/"/>
+<br />
+                            <span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_7__SeciliCevap" name="Sorular[7].SeciliCevap" type="radio" value="780264" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnJSDHF1eFIMGVx1D1wfdQMDUx95CHFcGHIEAQFUCg5wdAcBBx8!/"/>
+<br />
+                            <span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_7__SeciliCevap" name="Sorular[7].SeciliCevap" type="radio" value="780269" />                        </label>
+                        <span class="field">
+                            <span>Hiçbiri.</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_7__SeciliCevap" name="Sorular[7].SeciliCevap" type="radio" value="780261" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnMGASAieVIGGV50BwwfdQMGVB8jWCFeGHlQBVBQBAd0Jw8BUR8!/"/>
+<br />
+                            <span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_7__SeciliCevap" name="Sorular[7].SeciliCevap" type="radio" value="780258" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCncHDHYiIFBSGVl9BgAfdQMCAx8jAXoLGCcHAlcHCgN9dw8CBR8!/"/>
+<br />
+                            <span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_8__OgrenciCevabiId" name="Sorular[8].OgrenciCevabiId" type="hidden" value="5310051" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_8__ESinavSoruHavuzuId" name="Sorular[8].ESinavSoruHavuzuId" type="hidden" value="193742" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCiUKVndyJAkEGQgnBlsfdQQFBh94CCUPGCIKA1cGClIgJw5WAB8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Bir DC makineye ilişkin ölçüm sonuçları üstteki tabloda verilmiştir.<br /><br /><span style="font-size: 12pt; line-height: 107%;">Bu makine türünün DOĞRU tanımı hangisidir?</span> </span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_8__SeciliCevap" name="Sorular[8].SeciliCevap" type="radio" value="817991" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Şönt DC motor.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_8__SeciliCevap" name="Sorular[8].SeciliCevap" type="radio" value="817988" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Bağımsız DC jeneratör.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_8__SeciliCevap" name="Sorular[8].SeciliCevap" type="radio" value="817986" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Bağımsız DC motor.&nbsp;</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_8__SeciliCevap" name="Sorular[8].SeciliCevap" type="radio" value="817989" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Şönt DC jeneratör.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_8__SeciliCevap" name="Sorular[8].SeciliCevap" type="radio" value="817993" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hiçbiri.</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_9__OgrenciCevabiId" name="Sorular[9].OgrenciCevabiId" type="hidden" value="5310053" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_9__ESinavSoruHavuzuId" name="Sorular[9].ESinavSoruHavuzuId" type="hidden" value="193693" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCndRBSdwJAhXGQ0mAwofdQcFVh8jWnIMGHUBB1dVAVMnJ1YEUh8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Bir DC makineye ilişkin ölçüm sonuçları üstteki tabloda verilmiştir:<br /><br /><span style="font-size: 12pt; line-height: 107%;">Bu çalışma şartlarındaki verim için DOĞRU oranı işaretleyiniz.&nbsp;</span> </span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_9__SeciliCevap" name="Sorular[9].SeciliCevap" type="radio" value="817793" />                        </label>
+                        <span class="field">
+                            <span><span style="font-family: Arial, sans-serif;"><span style="font-size: 16px;"><strong>Hiçbiri</strong></span></span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_9__SeciliCevap" name="Sorular[9].SeciliCevap" type="radio" value="817791" />                        </label>
+                        <span class="field">
+                            <span><strong><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#xD;&#xA;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&#xD;&#xA;TR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">10/50</span></strong></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_9__SeciliCevap" name="Sorular[9].SeciliCevap" type="radio" value="817788" />                        </label>
+                        <span class="field">
+                            <span><strong><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#xD;&#xA;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&#xD;&#xA;TR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">5/25</span></strong></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_9__SeciliCevap" name="Sorular[9].SeciliCevap" type="radio" value="817789" />                        </label>
+                        <span class="field">
+                            <span><strong><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#xD;&#xA;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&#xD;&#xA;TR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">5/50</span></strong></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_9__SeciliCevap" name="Sorular[9].SeciliCevap" type="radio" value="817790" />                        </label>
+                        <span class="field">
+                            <span><strong><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;&#xD;&#xA;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&#xD;&#xA;TR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">40/50</span></strong></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_10__OgrenciCevabiId" name="Sorular[10].OgrenciCevabiId" type="hidden" value="5310054" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_10__ESinavSoruHavuzuId" name="Sorular[10].ESinavSoruHavuzuId" type="hidden" value="193748" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnEDDCJ1dVcFGVp2AwAfdVMEAB8gASILGHYGCgJUAw92JVUBAB8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Şönt bağlı bir DC makineye ilişkin ölçüm sonuçları üstteki tabloda
+verilmiştir.<br /></span><p class="MsoNormal"><span style="font-size: 12pt; line-height: 107%;">Mekanik kayıplar ihmal edilmektedir. </span></p>
+
+<span style="font-size: 12pt; line-height: 107%;">Makine sabitini değeri
+için DOĞRU olanı işaretleyiniz.</span><br /></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_10__SeciliCevap" name="Sorular[10].SeciliCevap" type="radio" value="818011" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hiçbiri</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_10__SeciliCevap" name="Sorular[10].SeciliCevap" type="radio" value="818008" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">1/8 (V.s/A.rad)</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_10__SeciliCevap" name="Sorular[10].SeciliCevap" type="radio" value="818001" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">1/10 (V.s/A.rad)</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_10__SeciliCevap" name="Sorular[10].SeciliCevap" type="radio" value="818009" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">1/5 (V.s/A.rad)</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_10__SeciliCevap" name="Sorular[10].SeciliCevap" type="radio" value="818010" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">1/20 (V.s/A.rad)</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_11__OgrenciCevabiId" name="Sorular[11].OgrenciCevabiId" type="hidden" value="5310055" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_11__ESinavSoruHavuzuId" name="Sorular[11].ESinavSoruHavuzuId" type="hidden" value="189681" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCiAGUHZ7dwJRGQh1D14fdVYAAR8jX3EPGHVXAFBVVlUgfgNTAx8!/"/>
+
+
+        <h5><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Üniform manyetik alan içinde bulunan, birbirine paralel iki süper
+iletken sabit ray ve hareketli iletkenden oluşan bir yapı ele alınmaktadır.
+<br />Raylar arası uzaklık, iletkenin hızı ve manyetik akı yoğunluğu değerleri şekil
+üzerinde belirtilmiştir.<br /><span style="font-size: 12pt; line-height: 107%;">Raylar arasında indüklenen e.m.k (E) değeri için DOĞRU olanı seçiniz.</span> </span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_11__SeciliCevap" name="Sorular[11].SeciliCevap" type="radio" value="802283" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">E = 8 V</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_11__SeciliCevap" name="Sorular[11].SeciliCevap" type="radio" value="802276" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">E = 24 V</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_11__SeciliCevap" name="Sorular[11].SeciliCevap" type="radio" value="802278" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">E = -24 V</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_11__SeciliCevap" name="Sorular[11].SeciliCevap" type="radio" value="802292" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hiçbiri</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_11__SeciliCevap" name="Sorular[11].SeciliCevap" type="radio" value="802285" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">E = -8 V</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_12__OgrenciCevabiId" name="Sorular[12].OgrenciCevabiId" type="hidden" value="5310057" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_12__ESinavSoruHavuzuId" name="Sorular[12].ESinavSoruHavuzuId" type="hidden" value="193672" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCncABiF3dFUGGQ18VV4fdQ0LUx94DiJaGCdWVQ5QAwd2dwEBAh8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Bir DC makineye ilişkin ölçüm sonuçları üstteki eşdeğer modelde
+verilmiştir.<br /><br /><span style="font-size: 12pt; line-height: 107%;">Makine sabiti <strong>0,2 [V.s/A.rad]</strong>
+olarak bilindiğine göre, devir hızı için DOĞRU değeri işaretleyiniz.</span> </span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_12__SeciliCevap" name="Sorular[12].SeciliCevap" type="radio" value="817762" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hiçbiri</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_12__SeciliCevap" name="Sorular[12].SeciliCevap" type="radio" value="817758" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">200 (rpm)</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_12__SeciliCevap" name="Sorular[12].SeciliCevap" type="radio" value="817746" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">100 (rpm)</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_12__SeciliCevap" name="Sorular[12].SeciliCevap" type="radio" value="817748" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">100 (rad/sn)</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_12__SeciliCevap" name="Sorular[12].SeciliCevap" type="radio" value="817755" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">200 (rad/sn)</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_13__OgrenciCevabiId" name="Sorular[13].OgrenciCevabiId" type="hidden" value="5310058" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_13__ESinavSoruHavuzuId" name="Sorular[13].ESinavSoruHavuzuId" type="hidden" value="189407" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCiUFUCEnd1MGGQBwUwsfdQQBAh94CSAOGHYBAQYCA1MgcwAEBx8!/"/>
+
+
+        <h5><p class="MsoNormal"><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Üstteki şekilde, manyetik alan içinde bulunan, içinden 1A
+lik akım akan, <span style="mso-spacerun:yes">&nbsp;</span>dikdörtgen biçimli
+iletken bulunmaktadır.<br /> İletken çerçeve ne yöne hareket eder?</span></p></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_13__SeciliCevap" name="Sorular[13].SeciliCevap" type="radio" value="801397" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Sağ</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_13__SeciliCevap" name="Sorular[13].SeciliCevap" type="radio" value="801606" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hareketsiz kalır</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_13__SeciliCevap" name="Sorular[13].SeciliCevap" type="radio" value="801602" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Yukarı</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_13__SeciliCevap" name="Sorular[13].SeciliCevap" type="radio" value="801599" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Sol</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_13__SeciliCevap" name="Sorular[13].SeciliCevap" type="radio" value="801604" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Aşağı</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_14__OgrenciCevabiId" name="Sorular[14].OgrenciCevabiId" type="hidden" value="5310061" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_14__ESinavSoruHavuzuId" name="Sorular[14].ESinavSoruHavuzuId" type="hidden" value="33404" />
+
+        
+
+        <h5>Yumuşak (soft) ve Sert (hard) feromanyetik maddeler için hangisi YANLIŞ olur?</h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_14__SeciliCevap" name="Sorular[14].SeciliCevap" type="radio" value="140335" />                        </label>
+                        <span class="field">
+                            <span>Yumuşak feromanyetik maddeler dar Histerezis döngü alanına sahiptir.</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_14__SeciliCevap" name="Sorular[14].SeciliCevap" type="radio" value="312207" />                        </label>
+                        <span class="field">
+                            <span>Hiçbiri</span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_14__SeciliCevap" name="Sorular[14].SeciliCevap" type="radio" value="312205" />                        </label>
+                        <span class="field">
+                            <span>AC transformatör, yumuşak&nbsp;feromanyetiklere dair bir uygulama örneğidir.</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_14__SeciliCevap" name="Sorular[14].SeciliCevap" type="radio" value="140399" />                        </label>
+                        <span class="field">
+                            <span>Daimi mıknatıslar sert&nbsp;feromanyetiklere dair bir uygulama örneğidir.</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_14__SeciliCevap" name="Sorular[14].SeciliCevap" type="radio" value="140377" />                        </label>
+                        <span class="field">
+                            <span>Sert&nbsp;feromanyetik maddeler geniş Histerezis döngü alanına sahiptir.</span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_15__OgrenciCevabiId" name="Sorular[15].OgrenciCevabiId" type="hidden" value="5310062" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_15__ESinavSoruHavuzuId" name="Sorular[15].ESinavSoruHavuzuId" type="hidden" value="193770" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCiJVAntxJQMGGQp2AAsfdVMDUx94XSVZGCACAwQOV1B0JFYEUB8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Şönt bağlı bir DC makineye ilişkin ölçüm sonuçları üstteki tabloda
+verilmiştir.<br /><span style="font-size: 12pt; line-height: 107%;">Mekanik kayıplar ihmal edilmektedir.<br /><br /><span style="font-size: 12pt; line-height: 107%;">Armatür sargısı direncinin değeri için DOĞRU olanı işaretleyiniz.&nbsp;</span> </span> </span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_15__SeciliCevap" name="Sorular[15].SeciliCevap" type="radio" value="818058" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">1 Ω</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_15__SeciliCevap" name="Sorular[15].SeciliCevap" type="radio" value="818060" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">0,1 Ω</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_15__SeciliCevap" name="Sorular[15].SeciliCevap" type="radio" value="818063" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">4 Ω</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_15__SeciliCevap" name="Sorular[15].SeciliCevap" type="radio" value="818066" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hiçbiri.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_15__SeciliCevap" name="Sorular[15].SeciliCevap" type="radio" value="818062" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">2 Ω</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_16__OgrenciCevabiId" name="Sorular[16].OgrenciCevabiId" type="hidden" value="5310064" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_16__ESinavSoruHavuzuId" name="Sorular[16].ESinavSoruHavuzuId" type="hidden" value="183926" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnUGUSdyeARXGQlyBQsfdVcHVR8gCXoNGHIDBFUFU1JwcFVXVh8!/"/>
+
+
+        <h5><p class="MsoNormal" style="margin-right:-14.2pt"><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Üstteki histerezis grafiği
+ile ilgili YANLIŞ olanı işaretleyiniz.</span></p></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_16__SeciliCevap" name="Sorular[16].SeciliCevap" type="radio" value="778590" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Manyetik akı yoğunluğunun doyma değeri 1 T ‘dır.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_16__SeciliCevap" name="Sorular[16].SeciliCevap" type="radio" value="778588" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Kalıcı mıknatıslanma değeri 0,7 T ‘dır.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_16__SeciliCevap" name="Sorular[16].SeciliCevap" type="radio" value="778589" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Zorlayıcı (koersif) kuvvet değeri -100 A/m ‘dir.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_16__SeciliCevap" name="Sorular[16].SeciliCevap" type="radio" value="778583" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Manyetik alanın doyma değeri 200 A/m ‘dir.</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_16__SeciliCevap" name="Sorular[16].SeciliCevap" type="radio" value="778592" />                        </label>
+                        <span class="field">
+                            <span>Hiçbiri.</span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_17__OgrenciCevabiId" name="Sorular[17].OgrenciCevabiId" type="hidden" value="5310066" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_17__ESinavSoruHavuzuId" name="Sorular[17].ESinavSoruHavuzuId" type="hidden" value="189388" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCn4HV3p7JVMAGVp2BQsfdQEGBB94WiIAGHMFBFRQBVdydlJRBR8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Üstteki şekilde, manyetik alan içinde bulunan, yönü
+belirtilmiş akım elemanı bulunmaktadır.</span>
+<br /><br />
+<span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">İletkenin boyu 2 m olduğuna göre, etki eden kuvvet
+ifadesi için DOĞRU olanı işaretleyiniz.<br /> </span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_17__SeciliCevap" name="Sorular[17].SeciliCevap" type="radio" value="801133" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnUFDXslcwACGQp3V1wfdQFRBh8jCXdeGCICAgVUBAEmIAACDB8!/"/>
+<br />
+                            <span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_17__SeciliCevap" name="Sorular[17].SeciliCevap" type="radio" value="801137" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCiRXVnd3eAAEGQwkBgAfdVYFVR94DnJZGHJVVldXBgRyIAQFBh8!/"/>
+<br />
+                            <span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_17__SeciliCevap" name="Sorular[17].SeciliCevap" type="radio" value="801134" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnZWAXYhd1IHGQB8D10fdVQLAx8gW3RdGHdQAVAOU1R9IA9RBx8!/"/>
+<br />
+                            <span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_17__SeciliCevap" name="Sorular[17].SeciliCevap" type="radio" value="801138" />                        </label>
+                        <span class="field">
+    <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCndWBncneAlRGQt2AFsfdQZQUh8jD3JbGHIDAVUDCg90fwFWBx8!/"/>
+<br />
+                            <span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_17__SeciliCevap" name="Sorular[17].SeciliCevap" type="radio" value="801172" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 20pt; line-height: 107%; font-family: Arial, sans-serif;">0</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_18__OgrenciCevabiId" name="Sorular[18].OgrenciCevabiId" type="hidden" value="5310069" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_18__ESinavSoruHavuzuId" name="Sorular[18].ESinavSoruHavuzuId" type="hidden" value="189697" />
+
+            <img  src="/p!J1BBKiwvDH1aVCxYXRQiWl1DQC5VL11HfHBcWEJXWDALUFhAH1lSCnJWA3IhJwINGQEnBAAfdQZVVB95CCVcGHcLUg8GVA4iJQFTDB8!/"/>
+
+
+        <h5><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">Üniform manyetik alan içinde bulunan, birbirine paralel iki süper
+iletken sabit ray ve hareketli iletkenden oluşan bir yapı ele alınmaktadır.
+<br />Raylar arası uzaklık, manyetik akı yoğunluğu değerleri şekil üzerinde
+belirtilmiştir.<br /><span style="font-size: 12pt; line-height: 107%;">Raylar arasında indüklenen e.m.k (E) değeri için DOĞRU olanı seçiniz.</span> </span></h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_18__SeciliCevap" name="Sorular[18].SeciliCevap" type="radio" value="802327" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hiçbiri</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_18__SeciliCevap" name="Sorular[18].SeciliCevap" type="radio" value="802316" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size: 12pt; line-height: 107%; font-family: Arial, sans-serif;">E = - 24 V</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_18__SeciliCevap" name="Sorular[18].SeciliCevap" type="radio" value="802314" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">E =&nbsp; 24 V</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_18__SeciliCevap" name="Sorular[18].SeciliCevap" type="radio" value="802323" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">E = 8 V</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_18__SeciliCevap" name="Sorular[18].SeciliCevap" type="radio" value="802320" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">E = - 8 V</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+﻿<div class="box box-liste"> 
+    <div class="box-body">
+
+        <input data-val="true" data-val-number="OgrenciCevabiId alanı numerik değer olmalıdır." data-val-required="The OgrenciCevabiId field is required." id="Sorular_19__OgrenciCevabiId" name="Sorular[19].OgrenciCevabiId" type="hidden" value="5310071" />
+        <input data-val="true" data-val-number="ESinavSoruHavuzuId alanı numerik değer olmalıdır." data-val-required="The ESinavSoruHavuzuId field is required." id="Sorular_19__ESinavSoruHavuzuId" name="Sorular[19].ESinavSoruHavuzuId" type="hidden" value="193606" />
+
+        
+
+        <h5>Bir DC makineye ilişkin DOĞRU olanları işaretleyiniz. <br /><br />I.&nbsp; Alan sargısı ile rotor sargısı eş anlamlıdır. <br />II. Alan sargısı ve stator sargısı eş anlamlıdır.<br />III. Armatür sargısı statorda yer almaktadır.<br />IV.&nbsp; Armatür sargısı rotorda bulunmaktadır.<br />V.&nbsp; &nbsp;Alan sargı akımının kaynak seçimine uyartım adı verilir.</h5>
+        <table>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_19__SeciliCevap" name="Sorular[19].SeciliCevap" type="radio" value="817472" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">I , III ve V</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input checked="checked" id="Sorular_19__SeciliCevap" name="Sorular[19].SeciliCevap" type="radio" value="817481" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">Hiçbiri</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_19__SeciliCevap" name="Sorular[19].SeciliCevap" type="radio" value="817477" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">II, IV ve V</span></span>
+                                <span style="color: red">-Doğru Cevap</span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_19__SeciliCevap" name="Sorular[19].SeciliCevap" type="radio" value="817479" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">I ve IV</span></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+<input id="Sorular_19__SeciliCevap" name="Sorular[19].SeciliCevap" type="radio" value="817474" />                        </label>
+                        <span class="field">
+                            <span><span style="font-size:12.0pt;line-height:107%;&#xD;&#xA;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&#xD;&#xA;minor-latin;mso-ansi-language:TR;mso-fareast-language:EN-US;mso-bidi-language:&#xD;&#xA;AR-SA">I, II ve V</span></span>
+                        </span>
+                    </td>
+                </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="page-footer">
+                    Bursa Uludağ Üniversitesi Bilgi İşlem Daire Başkanlığı © 2013
+
+                </div>
+            </section>
+        </aside>
+
+    </div>
+
+<div id="hizlierisimbuton">
+    <i class='fa fa-th-large'></i>
+</div>
+
+<div id="hizlierisimpanel">
+    <h4 style='margin: 0 0 5px 0; border-bottom: 1px dashed #ddd; padding: 3px;'>Hızlı Erişim</h4>
+    <div class="form-group no-margin">
+        <ul>
+                    <li>
+<a class="btn btn-app bg-aqua-gradient text-white" href="/p!J1BBKiwvDHBRSjZ6UUE1UEBeFCJWLUxHLl9fU0QPcS00XkYS!/">
+    <i class="ion ion-ios-paper"></i>Dersler
+</a>
+</li>
+                    <li><a class="btn btn-app bg-teal" href="/p!J1BBKiwvDH1aXCBOHlEuW0dFXS1VJkoIFVxDWldcQi1g!/">
+    <i class="ion ion-android-contacts"></i>Toplanti
+</a></li>
+                    <li><a class="btn btn-app bg-maroon-gradient text-white"  href="/p!J1BBKiwvDH1aXCBOHlEuW0dFXS1VJkoIFVJYQF9fEA!/">
+    <i class="ion ion-android-calendar"></i>Ajanda
+</a></li>
+                    <li><a class="btn btn-app bg-yellow " href="/p!ejNWEQodCwJ1BBKiwvDH1aXCBOHlEuW0dFXS1VJkoIA1JAQENAQ2I!/">
+    <i class="ion ion-edit"></i>Erasmus
+    <br />
+    Başvuru
+
+</a></li>
+
+        </ul>
+    </div>
+</div>
+
+
+    
+    
+
+</body>
+</html>
+
